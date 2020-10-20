@@ -24,6 +24,10 @@ class _ProfileState extends State<Profile> {
           Icon(Icons.settings),
         ],
       ),
+      floatingActionButton: FloatingActionButton(
+        onPressed: null,
+        child: Icon(Icons.edit),
+      ),
       body: Container(
         padding: EdgeInsets.all(20),
         child: ListView(
